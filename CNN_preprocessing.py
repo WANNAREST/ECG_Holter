@@ -128,3 +128,5 @@ plt.ylabel('Biên độ Chuẩn hóa')
 plt.legend()
 plt.grid(True)
 plt.show()
+# Save model 
+model.save('ecg_denoising_model.h5');
